@@ -16,7 +16,7 @@ function readTotal() {
 
 function writeTotal(value) {
 	var text = floatToMoneyText(value);
-	$("total").text(text)
+	$("#total").text(text)
 }
 
 function calculateTotalProducts() {
